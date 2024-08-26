@@ -1,11 +1,11 @@
 package com.xworks.data;
 
-public class SidedishStore 
+public class premStore 
 {
-	SidedishData[] info = new SidedishData[5];
+	premData[] info = new premData[5];
 	int counts;
 	
-	public void save(SidedishData data)
+	public void save(premData data)
 	{
 		this.info[this.counts]=data;
 		counts++;
@@ -14,7 +14,7 @@ public class SidedishStore
 	
 	public void display()
 	{
-		for(SidedishData data:info)
+		for(premData data:info)
 		{
 			if(data!=null)
 			{
