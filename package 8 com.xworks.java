@@ -13,7 +13,7 @@ public class MarketData
 		this.location = location;
 	}
 	
-	public void show()
+	public void family()
 	{
 		System.out.println("Name:"+this.name);
 		System.out.println("LOcation:"+this.location);
