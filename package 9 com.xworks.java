@@ -2,8 +2,8 @@ package com.xworks.data;
 
 public class MarketStore 
 {
-	MarketData[] datas=new MarketData[5];
-	int index;
+	private MarketData[] datas=new MarketData[5];
+private 	int index;
 	
 	public void save(MarketData data)
 	{
@@ -11,7 +11,7 @@ public class MarketStore
 		this.index++;
 	}
 	
-	public void display()
+	public void family()
 	{
 		for(MarketData data:datas)
 		{
