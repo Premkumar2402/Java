@@ -3,9 +3,9 @@ package com.xworks.data;
 public class Sandal 
 {
     private String brand;
-	privatechar size;
+	   private char size;
     private double cost;
-private	String color;
+    private	String color;
 
 	
 	public Sandal(String brand, char size, double cost, String color)
