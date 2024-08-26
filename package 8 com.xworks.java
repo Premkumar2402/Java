@@ -7,8 +7,7 @@ public class MarketData
 	private String location;
 	
 	public MarketData(String name, String location)
-	{
-		super();
+	{
 		this.name = name;
 		this.location = location;
 	}
