@@ -10,14 +10,14 @@ public class Sandal
 	
 	public Sandal(String brand, char size, double cost, String color)
 	{
-		super();
+	
 		this.brand = brand;
 		this.size = size;
 		this.cost = cost;
 		this.color = color;
 	}
 	
-	public void show()
+	public void family()
 	{
 		System.out.println("Brand:"+this.brand);
 		System.out.println("Size:"+this.size);
