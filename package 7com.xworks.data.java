@@ -22,7 +22,7 @@ public class SandalRunner
 		store.store(data5);
 		
 		
-	    store.display();
+	    store.family();
 		
 
 	}
