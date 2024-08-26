@@ -7,7 +7,7 @@ public class SandalStore
 	private Sandal[] sandals=new Sandal[5];
  private 	int number;
 	
-	public void family(Sandal slippers)
+	public void store(Sandal slippers)
 	{
 		this.sandals[this.number]=slippers;
 		this.number++;
