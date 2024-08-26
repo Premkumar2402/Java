@@ -5,7 +5,7 @@ public class MarketStore
 	private MarketData[] datas=new MarketData[5];
 private 	int index;
 	
-	public void save(MarketData data)
+	public void show(MarketData data)
 	{
 		this.datas[this.index]=data;
 		this.index++;
