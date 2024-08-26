@@ -10,11 +10,11 @@ public class SandalRunner
 	
 		SandalStore store=new SandalStore();
 		
-		Sandal data1=new Sandal("Crocs",'M',4000,"grey");
-		Sandal data2=new Sandal("Sparx",'L',800,"black");
-		Sandal data3=new Sandal("Puma",'M',2500,"black");
+		Sandal data1=new Sandal("paragon",'M',500,"black");
+		Sandal data2=new Sandal("Sparx",'s',800,"black");
+		Sandal data3=new Sandal("Puma",'M',200,"black");
 		Sandal data4=new Sandal("bata",'S',600,"white");
-		Sandal data5=new Sandal("Crocs",'M',3000,"white");
+		Sandal data5=new Sandal("Crocs",'M',2000,"white");
 		store.store(data1);
 		store.store(data2);
 		store.store(data3);
