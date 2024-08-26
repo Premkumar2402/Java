@@ -19,7 +19,7 @@ public class SandalStore
 		{
 			if(slippers!=null)
 			{
-				slippers.show();
+				slippers.family();
 			}
 			else
 			{
