@@ -4,8 +4,8 @@ import com.xworks.data.Sandal;
 
 public class SandalStore 
 {
-	Sandal[] sandals=new Sandal[5];
-	int number;
+	private Sandal[] sandals=new Sandal[5];
+ private 	int number;
 	
 	public void store(Sandal slippers)
 	{
@@ -13,7 +13,7 @@ public class SandalStore
 		this.number++;
 	}
 	
-	public void display()
+	public void janu()
 	{
 		for(Sandal slippers:this.sandals)
 		{
